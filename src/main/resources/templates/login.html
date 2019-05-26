@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<h1>Welcome! Please login your ID.</h1>
+<body>
+<form action="dologin" method="post" id="login_formId">
+    <p>User: <input type="text" name="username" id="login_username" /></p>
+    <p>P&ensp;W: <input type="password" name="password" id="login_password" /></p>
+    <input type="button" value="login" onclick="document.getElementById('login_formId').submit()">
+</form>
+<a href="/chatroom/user/register">
+    <button>didn't have a account?</button>
+</a>
+</body>
+</html>
